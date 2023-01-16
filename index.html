@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/main.css">
+
+    <title>Daniel Amaya</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <figure>
+            <img class="logo-header" src="./public/assets/DAB.png" alt="">
+        </figure>
+        <ul class="containItem">
+            <li class="item">Portfolio</li>
+            <li class="item">Contact</li>
+            <li class="item desplegar">Services
+                <div class="list">
+                    <div id="MisServicios" class="list__buy">
+                        
+                       
+                    </div>
+                    <div class="list__button">
+                        <button class="btn">Quotation</button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <header class="header">
+        <div class="containText">
+            <h1 class="title">Fullstack Engineer</h1>
+            <p class="parrafo">Frontend, Backend and Cloud services</p>
+            <a class="btnProductos" href="#">Get a quote</a>
+        </div>
+    </header>
+    <div class="test">
+        <div id="modal" class="bgModal">
+            <div class="modal">
+                <figure id="btnClose">
+                    <img class="imgIcon" src="public/imgProducts/x.png" alt="">
+                </figure>
+            </div>
+        </div>
+        <button id="btnModal" class="button">Open Modal</button>
+    </div>
+    <section  id="products" class="products">
+    </section>
+    <script src="src/js/main.js" type="module"></script>
+</body>
+</html>
